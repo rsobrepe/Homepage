@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: url("pattern.png");
+}
+
+.title{
+	background: #ccc;
+	color: BLACK;
+	width: 400px;
+	height: 60px;
+	margin: 25px auto;
+	padding: 5px 10px;
+	position: relative;
+	box-shadow: 5px 5px black;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: Anton;
+	text-align: center;
+
+}
+
+.main{
+	background: #ccc;
+	width: 400px;
+	height: 175px;
+	margin: 75px auto;
+	position: relative;
+	box-shadow: 5px 5px black;
+	padding: 30px;
+}
+
+.badge{
+	width:66px;
+	background: #e66357;
+	color: white;
+	padding: 5px 10px;
+	font-family: sans-sariff;
+	font-weight: bold;
+	position: absolute;
+	top: -15px;
+	left: 40%; 
+}
+
+.clock{
+	background: #ebebeb;
+	text-align: center;
+	font-size: 55px;
+	height: 100%;
+	padding-top: 25px;
+	font-family: Anton;	
+}
+
+.widgets {
+	background: #ccc;
+	width: 400px;
+	margin: 75px auto;
+	position: relative;
+	padding: 30px;
+}
+
+.socials{
+	width: 90px;
+	box-shadow: 5px 5px black;
+
+}
